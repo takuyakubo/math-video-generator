@@ -1,0 +1,32 @@
+fastapi[all]==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+alembic==1.12.1
+pydantic==2.5.0
+python-multipart==0.0.6
+celery[redis]==5.3.4
+redis==5.0.1
+
+# PDF processing
+PyPDF2==3.0.1
+pdfplumber==0.10.0
+pdf2image==1.16.3
+
+# LaTeX processing
+pylatex==1.4.1
+sympy==1.12
+matplotlib==3.8.2
+
+# Video generation
+moviepy==1.0.3
+Pillow==10.1.0
+
+# TTS
+azure-cognitiveservices-speech==1.33.0
+google-cloud-text-to-speech==2.16.3
+
+# Development
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
